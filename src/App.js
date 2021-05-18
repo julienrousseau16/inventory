@@ -1,9 +1,14 @@
 import React from 'react'
 
+import Inventory from './components/Inventory'
+
+import './App.css'
+
 const App = () => {
   return (
     <div className="App">
-      <h1>Inventory</h1>
+      <h1>Inventaire</h1>
+      <Inventory />
     </div>
   )
 }
